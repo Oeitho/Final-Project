@@ -1,11 +1,22 @@
 
 #Background-picture {
+	display: inline-block;
+	background-image: url("river.jpg");
+	background-size: 100% 100%;
+	height: 100vh;
 	width: 100%;
 }
+
 body {
 	margin: 0;
 	font-family: sans-serif;
-	width: 99%;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 nav ul {
@@ -13,7 +24,7 @@ nav ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: #ccc;
+	background-color: rgba(100, 100, 100, 0.5);
 }
 
 nav li {
@@ -27,5 +38,5 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #ddd;
+	background-color: rgba(156, 156, 156, 0.5);
 }

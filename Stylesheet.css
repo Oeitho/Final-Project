@@ -47,6 +47,8 @@ nav a:hover {
 	background-color: #eee;
 	overflow: hidden;
 	padding: 2vh 5vw 2vh 5vw;
+	-webkit-box-shadow: 1px 0px 3px;
+	-moz-box-shadow: 1px 0px 3px;
 	box-shadow: 1px 0px 3px;
 }
 

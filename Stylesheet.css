@@ -44,7 +44,7 @@ nav a:hover {
 
 .text {
 	margin: 0;
-	background-color: #eee;
+	background-color: #eeeeee;
 	overflow: hidden;
 	padding: 2vh 5vw 2vh 5vw;
 	-webkit-box-shadow: 1px 0px 3px;
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .text:nth-child(even) {
-	background-color: #cce;
+	background-color: #ccccff;
 }
 
 .flags {

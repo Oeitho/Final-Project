@@ -41,3 +41,15 @@ nav a {
 nav a:hover {
 	background-color: rgba(156, 156, 156, 0.5);
 }
+footer {
+	background-color: lightgrey;
+	text-align: center;
+	box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh grey;
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}

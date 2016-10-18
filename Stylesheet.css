@@ -24,7 +24,7 @@ nav ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(100, 100, 100, 0.5);
+	background-color: rgba(100, 100, 100, 0.6);
 }
 
 nav li {
@@ -39,21 +39,15 @@ nav a {
 }
 
 nav a:hover {
-	background-color: rgba(156, 156, 156, 0.5);
+	background-color: rgba(156, 156, 156, 0.8);
 }
 
 .text {
-	margin: 0;
-	background-color: #eeeeee;
+	margin: 20px auto 20px auto;
+	background-color: #ffffff;
 	overflow: hidden;
-	padding: 2vh 5vw 2vh 5vw;
-	-webkit-box-shadow: 1px 0px 3px;
-	-moz-box-shadow: 1px 0px 3px;
-	box-shadow: 1px 0px 3px;
-}
-
-.text:nth-child(even) {
-	background-color: #ccccff;
+	width: 80%;
+	border-bottom: 1px solid black;
 }
 
 .flags {
@@ -61,8 +55,8 @@ nav a:hover {
 }
 
 .flags img {
-	height: 18px;
-	width: 32px;
+	height: 14px;
+	width: 26px;
 }
 
 footer {

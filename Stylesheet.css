@@ -35,11 +35,24 @@ nav a {
 	color: white;
 	display: block;
 	text-decoration: none;
-	padding: 14px;
+	padding: 20px;
 }
 
 nav a:hover {
 	background-color: rgba(156, 156, 156, 0.8);
+}
+
+.flags {
+	float: right;
+}
+
+.flags a {
+	padding: 15px;
+}
+
+.flags img {
+	height: 24px;
+	width: 42px;
 }
 
 .text {
@@ -47,16 +60,12 @@ nav a:hover {
 	background-color: #ffffff;
 	overflow: hidden;
 	width: 80%;
-	border-bottom: 1px solid black;
+	box-shadow: 2px 2px 1px grey;
+	padding: 20px;
 }
 
-.flags {
-	float: right;
-}
-
-.flags img {
-	height: 14px;
-	width: 26px;
+.text p {
+	font-size: 1.4em;
 }
 
 footer {

@@ -60,8 +60,6 @@ nav a:hover {
 	background-color: #ffffff;
 	overflow: hidden;
 	width: 80%;
-	box-shadow: 2px 2px 1px grey;
-	padding: 20px;
 }
 
 .text p {

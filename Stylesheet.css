@@ -24,7 +24,7 @@ nav ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(100, 100, 100, 0.6);
+	background-color: rgba(167, 202, 214, 0.6);
 }
 
 nav li {
@@ -57,7 +57,6 @@ nav a:hover {
 
 .text {
 	margin: 20px auto 20px auto;
-	background-color: #ffffff;
 	overflow: hidden;
 	width: 60%;
 }
@@ -67,10 +66,16 @@ nav a:hover {
 }
 
 .text p {
-	font-size: 1.8em;
+	font-size: 1.9em;
 }
 
 footer {
+	margin: 20px auto 0 auto;
+	background-color: #0a2b60;
+	overflow: hidden;
+	text-align: center;
+	color: #ffffff;
+	/*
 	margin: 4vh auto 4vh auto;
 	padding: 10px;
 	background-color: lightgrey;
@@ -78,4 +83,5 @@ footer {
 	box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh grey;
 	border-radius: 5px;
 	width: 65%;
+	*/
 }

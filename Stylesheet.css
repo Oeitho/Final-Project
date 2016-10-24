@@ -102,6 +102,7 @@ footer {
 	padding: 20px 20% 0 20%;
 	overflow: hidden;
 	width: 60%;
+	padding-top: 6vh;
 }
 .konsept-innhold p {
 	font-size: 1.6em;

@@ -97,3 +97,9 @@ footer {
 	width: 65%;
 	*/
 }
+.konsept-innhold {
+	margin: 0;
+	padding: 20px 20% 0 20%;
+	overflow: hidden;
+	width: 60%;
+}

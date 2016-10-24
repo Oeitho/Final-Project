@@ -81,22 +81,47 @@ nav a:hover {
 	font-size: 1.9em;
 }
 
+h2 {
+	text-align: center;
+}
+
+.test {
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-right: 10px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.test:last-child {
+	margin-right: 0;
+}
+
+#container {
+	padding: 0;
+	display: block;
+	margin: 20px auto 20px auto;
+	width: 1226px;
+	overflow: hidden;
+}
+
+#video {
+	width: 420px;
+	margin: auto;
+}
+
 footer {
+	clear: left;
 	margin: 20px auto 0 auto;
 	background-color: #0a2b60;
 	overflow: hidden;
 	text-align: center;
 	color: #ffffff;
-	/*
-	margin: 4vh auto 4vh auto;
-	padding: 10px;
-	background-color: lightgrey;
-	text-align: center;
-	box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh grey;
-	border-radius: 5px;
-	width: 65%;
-	*/
 }
+
 .konsept-innhold {
 	margin: 0;
 	padding: 20px 20% 0 20%;

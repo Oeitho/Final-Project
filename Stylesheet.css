@@ -103,3 +103,9 @@ footer {
 	overflow: hidden;
 	width: 60%;
 }
+.konsept-innhold p {
+	font-size: 1.6em;
+}
+.konsept-innhold h2 {
+	font-size: 2em;
+}

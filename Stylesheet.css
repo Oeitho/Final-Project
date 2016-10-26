@@ -126,22 +126,82 @@ footer {
 	text-align: center;
 	color: #ffffff;
 }
+#wrapper-konsept{
+	width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 8vh;
+}
+#konsept-innhold-1 {
+	width: 80vw;
+	height: 50vh;
+	background-color: lightgrey;
+	box-shadow: 5px 5px 5px 5px grey;
 
-.konsept-innhold {
-	margin: 0;
-	padding: 20px 20% 0 20%;
-	overflow: hidden;
-	width: 60%;
-	padding-top: 6vh;
 }
-.konsept-innhold p {
-	font-size: 1.6em;
-}
-.konsept-innhold h2 {
-	font-size: 2em;
-}
-.konsept-innhold img {
-	width: 40%;
+#konsept-bilde-1 {
+	height: 30vh;
+	width: 26vw;
+	margin-top: 10vh;
+	margin-left: 4vw;
 	float: left;
-	padding-right: 1vw;
+	background-color: lightgrey;
+}
+#konsept-text-1 {
+	height: 30vh;
+	width: 40vw;
+	margin-top: 10vh;
+	margin-right: 4vw;
+	float: right;
+	background-color: lightgrey;
+	font-size: 1.3em;
+}
+#konsept-innhold-2 {
+	width: 80vw;
+	height: 70vh;
+	background-color: lightgrey;
+	margin-top: 4vh;
+	box-shadow: 5px 5px 5px 5px grey;
+}
+#konsept-bilde-2 {
+	height: 50vh;
+	width: 37vw;
+	margin-top: 10vh;
+	margin-right: 4vw;
+	float: right;
+	background-color: lightgrey;
+}
+#konsept-text-2 {
+	height: 50vh;
+	width: 30vw;
+	margin-top: 10vh;
+	margin-left: 4vw;
+	float: left;
+	background-color: lightgrey;
+	font-size: 1.3em;
+}
+#konsept-innhold-3 {
+	width: 80vw;
+	height: 50vh;
+	background-color: lightgrey;
+	box-shadow: 5px 5px 5px 5px grey;
+	margin-top: 4vh;
+
+}
+#konsept-bilde-3 {
+	height: 30vh;
+	width: 26vw;
+	margin-top: 10vh;
+	margin-left: 4vw;
+	float: left;
+	background-color: lightgrey;
+}
+#konsept-text-3 {
+	height: 30vh;
+	width: 40vw;
+	margin-top: 10vh;
+	margin-right: 4vw;
+	float: right;
+	background-color: lightgrey;
+	font-size: 1.3em;
 }

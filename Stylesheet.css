@@ -205,3 +205,51 @@ footer {
 	background-color: lightgrey;
 	font-size: 1.3em;
 }
+body#problem-background {
+	background-color: #252839;
+}
+#wrapper-problem{
+	width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 8vh;
+}
+#problem-innhold-1 {
+	width: 80vw;
+	height: 10vh;
+	background-color: #b5b5b7;
+	border-radius: 10px;
+}
+#problem-text-1 {
+	height: 10vh;
+	width: 80vw;
+	background-color: #b5b5b7;
+	font-size: 1.3em;
+	text-align: center;
+	border-radius: 10px;
+}
+#problem-innhold-2 {
+	width: 80vw;
+	height: 50vh;
+	background-color: #b5b5b7;
+	margin-top: 4vh;
+	border-radius: 10px;
+}
+#problem-bilde-2 {
+	height: 30vh;
+	width: 37vw;
+	margin-top: 10vh;
+	margin-left: 4vw;
+	float: left;
+	background-color: #b5b5b7;
+
+}
+#problem-text-2 {
+	height: 30vh;
+	width: 30vw;
+	margin-top: 10vh;
+	margin-right: 4vw;
+	float: right;
+	background-color: #b5b5b7;
+	font-size: 1.3em;
+}

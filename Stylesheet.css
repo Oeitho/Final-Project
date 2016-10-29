@@ -6,7 +6,7 @@ body {
 #Background-picture {
 	overflow: hidden;
 	display: block;
-	background-image: url("http://i.imgur.com/zfyinqS.jpg");
+	background-image: url("http://i.imgur.com/AVYslJJ.jpg");
 	background-size: 100% 100%;
 	height: 100vh;
 	width: 100%;
@@ -103,6 +103,11 @@ nav a:hover {
 
 .test p {
 	text-align: center;
+}
+
+.test img {
+	height: 200px;
+	width: 200px;
 }
 
 #container {

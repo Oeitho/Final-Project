@@ -6,16 +6,19 @@ body {
 #Background-picture {
 	overflow: hidden;
 	display: block;
-	background-image: url("http://i.imgur.com/AVYslJJ.jpg");
-	background-size: 100% 100%;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
+}
+
+#Background-picture img {
 	width: 100%;
 }
 
 #Background-picture h1{
-	position: relative;
-	top: 40%;
+	position: absolute;
 	text-align: center;
+	width: 100%;
+	top: 40%;
 	font-size: 3.4em;
 	color: white;
 	text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -185,7 +188,7 @@ footer {
 	float: left;
 	background-color: lightgrey;
 	font-size: 1.3vw;
-	
+
 
 }
 #konsept-innhold-3 {
@@ -212,7 +215,7 @@ footer {
 	float: right;
 	background-color: lightgrey;
 	font-size: 1.3vw;
-	
+
 
 }
 body#problem-background {
@@ -237,7 +240,7 @@ body#problem-background {
 	font-size: 1.3vw;
 	text-align: center;
 	border-radius: 10px;
-	
+
 
 }
 #problem-innhold-2 {
@@ -264,5 +267,5 @@ body#problem-background {
 	float: right;
 	background-color: #b5b5b7;
 	font-size: 1.3vw;
-	
+
 }

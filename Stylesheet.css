@@ -135,7 +135,7 @@ footer {
 	width: 80vw;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 8vh;
+	margin-top: 14vh;
 }
 #konsept-innhold-1 {
 	width: 80vw;
@@ -155,11 +155,12 @@ footer {
 #konsept-text-1 {
 	height: 30vh;
 	width: 40vw;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-right: 4vw;
 	float: right;
 	background-color: lightgrey;
-	font-size: 1.3em;
+	font-size: 1.3vw;
+
 }
 #konsept-innhold-2 {
 	width: 80vw;
@@ -179,11 +180,13 @@ footer {
 #konsept-text-2 {
 	height: 50vh;
 	width: 30vw;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-left: 4vw;
 	float: left;
 	background-color: lightgrey;
-	font-size: 1.3em;
+	font-size: 1.3vw;
+	
+
 }
 #konsept-innhold-3 {
 	width: 80vw;
@@ -204,11 +207,13 @@ footer {
 #konsept-text-3 {
 	height: 30vh;
 	width: 40vw;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-right: 4vw;
 	float: right;
 	background-color: lightgrey;
-	font-size: 1.3em;
+	font-size: 1.3vw;
+	
+
 }
 body#problem-background {
 	background-color: #252839;
@@ -217,11 +222,11 @@ body#problem-background {
 	width: 80vw;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 8vh;
+	margin-top: 14vh;
 }
 #problem-innhold-1 {
 	width: 80vw;
-	height: 10vh;
+	height: 15vh;
 	background-color: #b5b5b7;
 	border-radius: 10px;
 }
@@ -229,9 +234,11 @@ body#problem-background {
 	height: 10vh;
 	width: 80vw;
 	background-color: #b5b5b7;
-	font-size: 1.3em;
+	font-size: 1.3vw;
 	text-align: center;
 	border-radius: 10px;
+	
+
 }
 #problem-innhold-2 {
 	width: 80vw;
@@ -252,9 +259,10 @@ body#problem-background {
 #problem-text-2 {
 	height: 30vh;
 	width: 30vw;
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-right: 4vw;
 	float: right;
 	background-color: #b5b5b7;
-	font-size: 1.3em;
+	font-size: 1.3vw;
+	
 }

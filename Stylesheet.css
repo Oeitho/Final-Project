@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
+	height: 100%;
 }
 
 #Background-picture {
@@ -215,57 +216,35 @@ footer {
 	float: right;
 	background-color: lightgrey;
 	font-size: 1.3vw;
-
-
 }
 body#problem-background {
 	background-color: #252839;
 }
-#wrapper-problem{
-	width: 80vw;
+#problem-innhold{
+	width: 80%;
+	height: 80%;
+	margin-top: 80px;
+	background-color: #b5b5b7;
+	border-radius: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 14vh;
 }
-#problem-innhold-1 {
-	width: 80vw;
-	height: 15vh;
-	background-color: #b5b5b7;
-	border-radius: 10px;
+.lorem{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;	
 }
-#problem-text-1 {
-	height: 10vh;
-	width: 80vw;
-	background-color: #b5b5b7;
-	font-size: 1.3vw;
+.lorem h2{
+	font-size: 50px;
 	text-align: center;
-	border-radius: 10px;
-
-
 }
-#problem-innhold-2 {
-	width: 80vw;
-	height: 50vh;
-	background-color: #b5b5b7;
-	margin-top: 4vh;
-	border-radius: 10px;
+.lorem p{
+	font-size: 30px;
 }
-#problem-bilde-2 {
-	height: 30vh;
-	width: 37vw;
-	margin-top: 10vh;
-	margin-left: 4vw;
-	float: left;
-	background-color: #b5b5b7;
-
-}
-#problem-text-2 {
-	height: 30vh;
-	width: 30vw;
-	margin-top: 5vh;
-	margin-right: 4vw;
+.lorem img{
+	height: 300px;
 	float: right;
-	background-color: #b5b5b7;
-	font-size: 1.3vw;
-
+	margin-top: 50px;
+	margin-left: 50px;
 }
+

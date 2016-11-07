@@ -50,7 +50,7 @@ nav ul {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: rgba(65, 91, 104, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 nav li {
@@ -122,7 +122,7 @@ nav a:hover {
 	margin: 0;
 	padding: 0;
 	display: block;
-	margin-right: 10px;
+	margin-right: 120px;
 	width: 200px;
 	height: 300px;
 }
@@ -144,7 +144,7 @@ nav a:hover {
 	padding: 0;
 	display: block;
 	margin: 20px auto 20px auto;
-	width: 626px;
+	width: 846px;
 	overflow: hidden;
 }
 

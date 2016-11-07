@@ -148,87 +148,36 @@ footer {
 	text-align: center;
 	color: #ffffff;
 }
+body#konsept-background {
+	background-color: #D9D9D9;
+}
 #wrapper-konsept{
-	width: 80vw;
+	width: 80%;
+	height: 80%;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	background-color: white;
+	border-radius: 10px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 14vh;
 }
-#konsept-innhold-1 {
-	width: 80vw;
-	height: 50vh;
-	background-color: lightgrey;
-	box-shadow: 5px 5px 5px 5px grey;
-
+.lorem-konsept{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
 }
-#konsept-bilde-1 {
-	height: 30vh;
-	width: 26vw;
-	margin-top: 10vh;
-	margin-left: 4vw;
-	float: left;
-	background-color: lightgrey;
+.lorem-konsept h2{
+	font-size: 40px;
 }
-#konsept-text-1 {
-	height: 30vh;
-	width: 40vw;
-	margin-top: 5vh;
-	margin-right: 4vw;
+.lorem-konsept p{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.lorem-konsept img{
+	height: 300px;
 	float: right;
-	background-color: lightgrey;
-	font-size: 1.3vw;
-
-}
-#konsept-innhold-2 {
-	width: 80vw;
-	height: 70vh;
-	background-color: lightgrey;
-	margin-top: 4vh;
-	box-shadow: 5px 5px 5px 5px grey;
-}
-#konsept-bilde-2 {
-	height: 50vh;
-	width: 37vw;
-	margin-top: 10vh;
-	margin-right: 4vw;
-	float: right;
-	background-color: lightgrey;
-}
-#konsept-text-2 {
-	height: 50vh;
-	width: 30vw;
-	margin-top: 5vh;
-	margin-left: 4vw;
-	float: left;
-	background-color: lightgrey;
-	font-size: 1.3vw;
-
-
-}
-#konsept-innhold-3 {
-	width: 80vw;
-	height: 50vh;
-	background-color: lightgrey;
-	box-shadow: 5px 5px 5px 5px grey;
-	margin-top: 4vh;
-
-}
-#konsept-bilde-3 {
-	height: 30vh;
-	width: 26vw;
-	margin-top: 10vh;
-	margin-left: 4vw;
-	float: left;
-	background-color: lightgrey;
-}
-#konsept-text-3 {
-	height: 30vh;
-	width: 40vw;
-	margin-top: 5vh;
-	margin-right: 4vw;
-	float: right;
-	background-color: lightgrey;
-	font-size: 1.3vw;
+	margin-top: 50px;
+	margin-left: 50px;
 }
 body#problem-background {
 	background-color: #D9D9D9;
@@ -243,20 +192,20 @@ body#problem-background {
 	margin-right: auto;
 	margin-left: auto;
 }
-.lorem{
+.lorem-problem{
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 20px;
 }
-.lorem h2{
+.lorem-problem h2{
 	font-size: 50px;
 	text-align: center;
 }
-.lorem p{
+.lorem.problem p{
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.lorem img{
+.lorem-problem img{
 	height: 300px;
 	float: right;
 	margin-top: 50px;

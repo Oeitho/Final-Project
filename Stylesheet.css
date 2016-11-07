@@ -97,6 +97,21 @@ nav a:hover {
 	width: 51px;
 }
 
+@media screen and (max-width: 600px) {
+	nav li, .flags {
+		float: none;
+	}
+
+	nav {
+		position: absolute;
+		height: 100%;
+	}
+
+	nav a {
+		padding: 10px;
+	}
+}
+
 .text {
 	margin: 0;
 	padding: 20px 20% 0 20%;
@@ -122,29 +137,36 @@ nav a:hover {
 	margin: 0;
 	padding: 0;
 	display: block;
-	margin-right: 120px;
-	width: 200px;
-	height: 300px;
+	margin-right: 60px;
+	width: 300px;
+	height: 460px;
 }
 
 .test:last-child {
 	margin-right: 0;
 }
 
-.test p {
+.test h3 {
 	text-align: center;
 }
 
+.test p {
+	text-align: center;
+	line-height: 150%;
+}
+
 .test img {
+	display: block;
 	height: 200px;
 	width: 200px;
+	margin: auto;
 }
 
 #container {
 	padding: 0;
 	display: block;
 	margin: 20px auto 20px auto;
-	width: 846px;
+	width: 1026px;
 	overflow: hidden;
 }
 

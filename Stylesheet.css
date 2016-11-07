@@ -231,13 +231,14 @@ footer {
 	font-size: 1.3vw;
 }
 body#problem-background {
-	background-color: #252839;
+	background-color: #D9D9D9;
 }
 #problem-innhold{
 	width: 80%;
 	height: 80%;
-	margin-top: 80px;
-	background-color: #b5b5b7;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	background-color: white;
 	border-radius: 10px;
 	margin-right: auto;
 	margin-left: auto;
@@ -252,7 +253,8 @@ body#problem-background {
 	text-align: center;
 }
 .lorem p{
-	font-size: 30px;
+	font-size: 20px;
+	padding-bottom: 20px;
 }
 .lorem img{
 	height: 300px;

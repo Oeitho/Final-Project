@@ -193,19 +193,19 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 }
-.lorem-konsept{
+.konsept{
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 20px;
 }
-.lorem-konsept h2{
+.konsept h2{
 	font-size: 40px;
 }
-.lorem-konsept p{
+.konsept p{
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.lorem-konsept img{
+.konsept img{
 	height: 300px;
 	float: right;
 	margin-top: 50px;

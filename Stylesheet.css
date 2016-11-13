@@ -1,17 +1,16 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	height: 100%;
 }
 
 #Background-picture {
 	overflow: hidden;
 	display: block;
-	height: 100%;
 	width: 100%;
 }
 
 #Background-picture img {
+	display: block;
 	width: 100%;
 }
 
@@ -69,21 +68,6 @@ nav a:hover {
 	background-color: rgba(0, 169, 255, 0.8);
 }
 
-@media screen and (max-width: 900px) {
-	#Background-picture #wrapper {
-		left: 400px;
-		top: 150px;
-	}
-
-	#Background-picture {
-		width: 900px;
-	}
-
-	#Background-picture img {
-		width: 900px;
-	}
-}
-
 .flags {
 	float: right;
 }
@@ -95,21 +79,6 @@ nav a:hover {
 .flags img {
 	height: 29px;
 	width: 51px;
-}
-
-@media screen and (max-width: 600px) {
-	nav li, .flags {
-		float: none;
-	}
-
-	nav {
-		position: absolute;
-		height: 100%;
-	}
-
-	nav a {
-		padding: 10px;
-	}
 }
 
 .text {
@@ -132,7 +101,7 @@ nav a:hover {
 	font-size: 2.6em;
 }
 
-.test {
+.problems {
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -142,20 +111,20 @@ nav a:hover {
 	height: 460px;
 }
 
-.test:last-child {
+.problems:last-child {
 	margin-right: 0;
 }
 
-.test h3 {
+.problems h3 {
 	text-align: center;
 }
 
-.test p {
+.problems p {
 	text-align: center;
 	line-height: 150%;
 }
 
-.test img {
+.problems img {
 	display: block;
 	height: 200px;
 	width: 200px;
@@ -163,11 +132,67 @@ nav a:hover {
 }
 
 #container {
-	padding: 0;
+	padding: 10px;
 	display: block;
 	margin: 20px auto 20px auto;
 	width: 1026px;
 	overflow: hidden;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 1100px) {
+	#Background-picture #wrapper {
+		margin: 0;
+		padding: 0;
+		left: 0;
+		top: 0;
+		width: 100vw;
+		position: relative;
+	}
+
+	#Background-picture p {
+		margin: 0;
+		padding: 0;
+	}
+
+	#Background-picture h1 {
+		margin: 0;
+		padding: 0;
+	}
+
+	#Background-picture {
+		width: 100%;
+	}
+
+	#Background-picture img {
+		width: 1100px;
+		margin: 0;
+	}
+
+	#container {
+		width: 300px;
+	}
+
+	.problems {
+		margin-right: 0;
+		margin-bottom: 10px;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	nav li, .flags {
+		float: none;
+	}
+
+	nav {
+		position: absolute;
+		height: 100%;
+	}
+
+	nav a {
+		padding: 10px;
+	}
 }
 
 #video {

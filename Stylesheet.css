@@ -37,6 +37,7 @@ body {
 }
 
 nav {
+	z-index: 2;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -142,22 +143,10 @@ nav a:hover {
 
 @media screen and (max-width: 1100px) {
 	#Background-picture #wrapper {
-		margin: 0;
-		padding: 0;
 		left: 0;
 		top: 0;
 		width: 100vw;
 		position: relative;
-	}
-
-	#Background-picture p {
-		margin: 0;
-		padding: 0;
-	}
-
-	#Background-picture h1 {
-		margin: 0;
-		padding: 0;
 	}
 
 	#Background-picture {
@@ -175,12 +164,12 @@ nav a:hover {
 
 	.problems {
 		margin-right: 0;
-		margin-bottom: 10px;
+		margin-bottom: 60px;
 		float: none;
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	nav li, .flags {
 		float: none;
 	}
@@ -192,6 +181,17 @@ nav a:hover {
 
 	nav a {
 		padding: 10px;
+		font-size: 1.2em;
+	}
+
+	.flags img {
+		height: 20px;
+		width: 37px;
+	}
+
+	.flags a {
+		padding: 9px;
+		padding-left: 10px;
 	}
 }
 

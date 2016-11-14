@@ -176,17 +176,12 @@ nav a:hover {
 }
 
 @media screen and (max-width: 650px), (max-height: 400px) {
+	nav {
+		position: absolute;
+	}
+
 	nav li, .flags {
 		float: none;
-	}
-
-	nav {
-		position: relative;
-		height: 100%;
-	}
-
-	nav ul {
-		background-color: rgba(30, 30, 50, 1);
 	}
 
 	nav a {

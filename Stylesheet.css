@@ -231,6 +231,7 @@ footer {
 	margin-left: auto;
 	border: 2px solid black;
 	border-radius: 10px;
+	padding-bottom: 20px;
 	margin-bottom: 80px;
 }
 .konsept{
@@ -248,7 +249,6 @@ footer {
 .konsept img{
 	height: 400px;
 	float: right;
-	margin-top: -10px;
 	margin-left: 50px;
 }
 #wrapper-keyring{

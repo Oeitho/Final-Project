@@ -110,7 +110,6 @@ nav a:hover {
 	display: block;
 	margin-right: 60px;
 	width: 300px;
-	height: 460px;
 }
 
 .problems:last-child {
@@ -134,7 +133,7 @@ nav a:hover {
 }
 
 #container {
-	padding: 10px;
+	padding: 30px;
 	display: block;
 	margin: 20px auto 20px auto;
 	width: 1026px;
@@ -161,17 +160,22 @@ nav a:hover {
 	}
 
 	#container {
-		width: 300px;
+		width: 400px;
 	}
 
 	.problems {
 		margin-right: 0;
 		margin-bottom: 60px;
 		float: none;
+		width: 400px;
+	}
+
+	.problems:last-child {
+		margin-bottom: 0;
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px), (max-height: 400px) {
 	nav li, .flags {
 		float: none;
 	}
@@ -194,6 +198,13 @@ nav a:hover {
 	.flags a {
 		padding: 9px;
 		padding-left: 10px;
+	}
+
+	#Background-picture #wrapper {
+		left: 0;
+		top: 0;
+		width: 100vw;
+		position: relative;
 	}
 }
 

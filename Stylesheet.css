@@ -229,6 +229,9 @@ footer {
 	background-color: white;
 	margin-right: auto;
 	margin-left: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 80px;
 }
 .konsept{
 	padding-left: 40px;
@@ -245,7 +248,7 @@ footer {
 .konsept img{
 	height: 400px;
 	float: right;
-	margin-top: 50px;
+	margin-top: -10px;
 	margin-left: 50px;
 }
 #wrapper-keyring{
@@ -255,6 +258,8 @@ footer {
 	background-color: white;
 	margin-right: auto;
 	margin-left: auto;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 .keyring{
 	padding-left: 40px;

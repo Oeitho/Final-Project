@@ -181,13 +181,25 @@ nav a:hover {
 	}
 
 	nav {
-		position: absolute;
+		position: relative;
 		height: 100%;
+	}
+
+	nav ul {
+		background-color: rgba(30, 30, 50, 1);
 	}
 
 	nav a {
 		padding: 10px;
 		font-size: 1.2em;
+	}
+
+	nav a:hover {
+		background-color: rgba(0, 169, 255, 0.8);
+	}
+
+	#menu {
+		display: block;
 	}
 
 	.flags img {

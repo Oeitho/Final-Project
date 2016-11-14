@@ -233,6 +233,7 @@ footer {
 	border-radius: 10px;
 	padding-bottom: 20px;
 	margin-bottom: 80px;
+	min-height: 430px;
 }
 .konsept{
 	padding-left: 40px;

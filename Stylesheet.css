@@ -142,79 +142,6 @@ nav a:hover {
 	border-radius: 10px;
 }
 
-@media screen and (max-width: 1100px) {
-	#Background-picture #wrapper {
-		left: 0;
-		top: 0;
-		width: 100vw;
-		position: relative;
-	}
-
-	#Background-picture {
-		width: 100%;
-	}
-
-	#Background-picture img {
-		width: 1100px;
-		margin: 0;
-	}
-
-	#container {
-		width: 400px;
-	}
-
-	.problems {
-		margin-right: 0;
-		margin-bottom: 60px;
-		float: none;
-		width: 400px;
-	}
-
-	.problems:last-child {
-		margin-bottom: 0;
-	}
-}
-
-@media screen and (max-width: 650px), (max-height: 400px) {
-	nav {
-		position: absolute;
-	}
-
-	nav li, .flags {
-		float: none;
-	}
-
-	nav a {
-		padding: 10px;
-		font-size: 1.2em;
-	}
-
-	nav a:hover {
-		background-color: rgba(0, 169, 255, 0.8);
-	}
-
-	#menu {
-		display: block;
-	}
-
-	.flags img {
-		height: 20px;
-		width: 37px;
-	}
-
-	.flags a {
-		padding: 9px;
-		padding-left: 10px;
-	}
-
-	#Background-picture #wrapper {
-		left: 0;
-		top: 0;
-		width: 100vw;
-		position: relative;
-	}
-}
-
 #video {
 	width: 420px;
 	margin: auto;
@@ -314,4 +241,77 @@ footer {
 	float: right;
 	margin-top: 50px;
 	margin-left: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+	#Background-picture #wrapper {
+		left: 0;
+		top: 0;
+		width: 100vw;
+		position: relative;
+	}
+
+	#Background-picture {
+		width: 100%;
+	}
+
+	#Background-picture img {
+		width: 1100px;
+		margin: 0;
+	}
+
+	#container {
+		width: 400px;
+	}
+
+	.problems {
+		margin-right: 0;
+		margin-bottom: 60px;
+		float: none;
+		width: 400px;
+	}
+
+	.problems:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 650px), (max-height: 400px) {
+	nav {
+		position: absolute;
+	}
+
+	nav li, .flags {
+		float: none;
+	}
+
+	nav a {
+		padding: 10px;
+		font-size: 1.2em;
+	}
+
+	nav a:hover {
+		background-color: rgba(0, 169, 255, 0.8);
+	}
+
+	.flags img {
+		height: 20px;
+		width: 37px;
+	}
+
+	.flags a {
+		padding: 9px;
+		padding-left: 10px;
+	}
+
+	#Background-picture #wrapper {
+		left: 0;
+		top: 0;
+		width: 100vw;
+		position: relative;
+	}
+
+	#wrapper-problem, #wrapper-konsept {
+		margin-top: 240px;
+	}
 }

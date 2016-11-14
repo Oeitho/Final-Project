@@ -138,7 +138,8 @@ nav a:hover {
 	margin: 20px auto 20px auto;
 	width: 1026px;
 	overflow: hidden;
-	border: 1px solid black;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 
 @media screen and (max-width: 1100px) {

@@ -218,10 +218,11 @@ footer {
 	height: 80%;
 	margin-top: 80px;
 	margin-bottom: 40px;
-	background-color: white;
 	border-radius: 10px;
 	margin-right: auto;
 	margin-left: auto;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 .problem{
 	padding-left: 40px;

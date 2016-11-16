@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #CDD3CE;
+	background-color: #E2E4E9;
 }
 
 #Background-picture {
@@ -102,7 +102,11 @@ nav a:hover {
 #problem {
 	text-align: center;
 	font-size: 1.6em;
-	padding: 3% 20% 3% 20%;
+	padding: 1% 20% 1% 20%;
+}
+
+#problem a {
+	color: blue;
 }
 
 .problems {
@@ -134,14 +138,32 @@ nav a:hover {
 	margin: auto;
 }
 
+#outercontainer {
+	color: white;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
 #container {
 	padding: 30px;
 	display: block;
-	margin: 20px auto 20px auto;
+	margin: 20px auto 0 auto;
 	width: 1026px;
 	overflow: hidden;
-	border: 2px solid black;
-	border-radius: 10px;
+	/*border: 2px solid black;
+	border-radius: 10px;*/
+}
+
+#concept-link {
+	margin: 0;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+#concept-link a {
+	color: white;
 }
 
 #video {
@@ -269,6 +291,7 @@ footer {
 
 	#container {
 		width: 400px;
+		margin: auto;
 	}
 
 	.problems {
@@ -276,6 +299,7 @@ footer {
 		margin-bottom: 60px;
 		float: none;
 		width: 400px;
+		margin: 0;
 	}
 
 	.problems:last-child {
@@ -317,4 +341,32 @@ footer {
 	#wrapper-problem, #wrapper-konsept {
 		margin-top: 240px;
 	}
+}
+
+@media screen and (max-width: 460px) {
+
+	nav {
+		width: 460px;
+	}
+
+	#Background-picture {
+		width: 460px;
+	}
+
+	#Background-picture #wrapper {
+		width: 460px;
+	}
+
+	#Background-picture img {
+		width: 460px;
+	}
+
+	#outercontainer {
+		width: 460px;
+	}
+
+	#container {
+		margin: 0;
+	}
+
 }

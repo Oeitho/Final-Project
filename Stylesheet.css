@@ -207,7 +207,6 @@ footer {
 .keyring p{
 	font-size: 20px;
 	padding-bottom: 20px;
-	width: 80%;
 }
 .keyring img{
 	width: 50%;
@@ -230,8 +229,7 @@ footer {
 	padding-top: 20px;
 }
 .problem h2{
-	font-size: 50px;
-	text-align: center;
+	font-size: 40px;
 }
 .problem p{
 	font-size: 20px;
@@ -240,7 +238,7 @@ footer {
 .problem img{
 	height: 300px;
 	float: right;
-	margin-top: 50px;
+	margin-top: -100px;
 	margin-left: 50px;
 }
 

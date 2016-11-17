@@ -185,40 +185,40 @@ footer {
 	color: #ffffff;
 }
 
-.konsept-farget{
+.innhold-farget{
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-.konsept-hvit{
+.innhold-hvit{
 	background-color: #e3e4e9;
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px
 }
-.konsept{
+.innhold{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;	
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.konsept h2{
+.innhold h2{
 	font-size: 40px;
 }
-.konsept p{
+.innhold p{
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.konsept-farget .konsept p{
+.innhold-farget .innhold p{
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.konsept-farget .konsept h2{
+.innhold-farget .innhold h2{
 	color: #E2E4E9;
 	font-size: 40px;
 }
@@ -234,30 +234,7 @@ footer {
 	margin-left: auto;
 }
 
-#wrapper-problem{
-	width: 80%;
-	height: 80%;
-	margin-top: 80px;
-	margin-bottom: 40px;
-	border-radius: 10px;
-	margin-right: auto;
-	margin-left: auto;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-.problem{
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 20px;
-}
-.problem h2{
-	font-size: 40px;
-}
-.problem p{
-	font-size: 20px;
-	padding-bottom: 20px;
-}
-.problem img{
+#tyv-illustrasjon {
 	height: 300px;
 	float: right;
 	margin-top: -100px;

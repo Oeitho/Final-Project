@@ -185,20 +185,22 @@ footer {
 	color: #ffffff;
 }
 
-#wrapper-konsept{
-	width: 80%;
-	height: 80%;
+.konsept-farget{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
 	margin-top: 80px;
-	background-color: white;
-	margin-right: auto;
-	margin-left: auto;
-	border: 2px solid black;
-	border-radius: 10px;
 	padding-bottom: 20px;
-	margin-bottom: 80px;
-	min-height: 430px;
+}
+.konsept-hvit{
+	background-color: #e3e4e9;
+	width: 100%;
+	margin-top: 80px;
+	padding-bottom: 20px;
 }
 .konsept{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;	
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 20px;
@@ -210,37 +212,28 @@ footer {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.konsept img{
+.konsept-farget .konsept p{
+	color: #E2E4E9;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.konsept-farget .konsept h2{
+	color: #E2E4E9;
+	font-size: 40px;
+}
+#battery-illustrasjon{
+	margin-top: -10px;
 	height: 400px;
 	float: right;
 	margin-left: 50px;
 }
-#wrapper-keyring{
-	width: 80%;
-	height: 80%;
-	margin-bottom: 40px;
-	background-color: white;
+#Keyring-illustrasjon {
+	width: 50%;
+	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	border: 2px solid black;
-	border-radius: 10px;
 }
-.keyring{
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 20px;
-}
-.keyring h2{
-	font-size: 40px;
-}
-.keyring p{
-	font-size: 20px;
-	padding-bottom: 20px;
-}
-.keyring img{
-	width: 50%;
-	padding-left: 15%;
-}
+
 #wrapper-problem{
 	width: 80%;
 	height: 80%;

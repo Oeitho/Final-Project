@@ -190,12 +190,14 @@ footer {
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 .konsept-hvit{
 	background-color: #e3e4e9;
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
+	padding-top: 20px
 }
 .konsept{
 	width: 80%;
@@ -203,7 +205,6 @@ footer {
 	margin-left: auto;	
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 20px;
 }
 .konsept h2{
 	font-size: 40px;
@@ -222,8 +223,7 @@ footer {
 	font-size: 40px;
 }
 #battery-illustrasjon{
-	margin-top: -10px;
-	height: 400px;
+	height: 350px;
 	float: right;
 	margin-left: 50px;
 }

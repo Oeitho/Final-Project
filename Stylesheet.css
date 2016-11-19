@@ -202,7 +202,7 @@ footer {
 .innhold{
 	width: 80%;
 	margin-right: auto;
-	margin-left: auto;	
+	margin-left: auto;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -292,8 +292,7 @@ footer {
 	}
 
 	nav a {
-		padding: 10px;
-		font-size: 1.2em;
+		padding: 10px
 	}
 
 	.flags img {

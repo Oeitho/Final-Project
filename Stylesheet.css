@@ -143,15 +143,15 @@ nav a:hover {
 	margin: auto;
 }
 
-#outercontainer {
+#container {
 	color: white;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 	padding-bottom: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
-#container {
+#innerContainer {
 	padding: 30px;
 	display: block;
 	margin: 20px auto 0 auto;
@@ -264,7 +264,7 @@ footer {
 		margin: 0;
 	}
 
-	#container {
+	#innerContainer {
 		width: 400px;
 		margin: auto;
 	}
@@ -335,11 +335,11 @@ footer {
 		width: 460px;
 	}
 
-	#outercontainer {
+	#container {
 		width: 460px;
 	}
 
-	#container {
+	#innerContainer {
 		margin: 0;
 	}
 

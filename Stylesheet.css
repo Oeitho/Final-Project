@@ -110,7 +110,7 @@ nav a:hover {
 }
 
 #problem a {
-	color: blue;
+	color: #000;
 	font-size: 1.4em;
 }
 
@@ -169,20 +169,6 @@ nav a:hover {
 
 #concept-link a {
 	color: white;
-}
-
-#video {
-	width: 420px;
-	margin: auto;
-}
-
-footer {
-	clear: left;
-	margin: 20px auto 0 auto;
-	background-color: #0a2b60;
-	overflow: hidden;
-	text-align: center;
-	color: #ffffff;
 }
 
 .innhold-farget{

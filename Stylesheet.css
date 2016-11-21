@@ -143,15 +143,8 @@ nav a:hover {
 	margin: auto;
 }
 
-#container {
-	color: white;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-	padding-bottom: 30px;
-	margin-bottom: 0px;
-}
-
 #innerContainer {
+	color: white;
 	padding: 30px;
 	display: block;
 	margin: 20px auto 0 auto;
@@ -171,40 +164,40 @@ nav a:hover {
 	color: white;
 }
 
-.innhold-farget{
+.container-farget{
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-.innhold-hvit{
+.container-hvit{
 	background-color: #e3e4e9;
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px
 }
-.innhold{
+.container{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.innhold h2{
+.container h2{
 	font-size: 40px;
 }
-.innhold p{
+.container p{
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.innhold-farget .innhold p{
+.container-farget .container p{
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.innhold-farget .innhold h2{
+.container-farget .container h2{
 	color: #E2E4E9;
 	font-size: 40px;
 }

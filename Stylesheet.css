@@ -109,7 +109,7 @@ nav a:hover {
 }
 
 #problem a {
-	color: #000;
+	color: black;
 	font-size: 1.4em;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
 	color: white;
 }
 
-.container-colored{
+.container-colored {
 	background-color: #434445;
 	width: 100%;
 	margin-top: 80px;
@@ -169,13 +169,13 @@ nav a:hover {
 	padding-top: 20px;
 }
 
-.container-white{
+.container-white {
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px
 }
-.container{
+.container {
 	word-wrap: break-word;
 	width: 80%;
 	margin-right: auto;
@@ -183,23 +183,23 @@ nav a:hover {
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.container h2{
+.container h2 {
 	font-size: 40px;
 }
-.container p{
+.container p {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.container-colored .container p{
+.container-colored .container p {
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.container-colored .container h2{
+.container-colored .container h2 {
 	color: #E2E4E9;
 	font-size: 40px;
 }
-#ikon4{
+#ikon4 {
 	height: 350px;
 	float: right;
 	margin-left: 50px;

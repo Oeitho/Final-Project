@@ -209,7 +209,6 @@ nav a:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
-
 #ikon1 {
 	height: 300px;
 	float: right;
@@ -292,9 +291,7 @@ nav a:hover {
 		position: relative;
 	}
 
-	#wrapper-problem, #wrapper-konsept {
-		margin-top: 240px;
-	}
+
 }
 
 @media screen and (max-width: 460px) {

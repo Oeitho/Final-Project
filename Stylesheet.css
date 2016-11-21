@@ -164,14 +164,14 @@ nav a:hover {
 	color: white;
 }
 
-.container-farget{
+.container-colored{
 	background-color: rgba(0,0,0,0.7);
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-.container-hvit{
+.container-white{
 	background-color: #e3e4e9;
 	width: 100%;
 	margin-top: 80px;
@@ -192,12 +192,12 @@ nav a:hover {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.container-farget .container p{
+.container-colored .container p{
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
-.container-farget .container h2{
+.container-colored .container h2{
 	color: #E2E4E9;
 	font-size: 40px;
 }

@@ -312,7 +312,15 @@ nav a:hover {
 		width: 460px;
 	}
 
-	#container {
+	.container {
+		width: 380px;
+	}
+
+	.container-white {
+		width: 460px;
+	}
+
+	.container-colored {
 		width: 460px;
 	}
 

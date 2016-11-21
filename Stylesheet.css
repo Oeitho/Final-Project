@@ -292,7 +292,6 @@ nav a:hover {
 }
 
 @media screen and (max-width: 460px) {
-
 	nav {
 		width: 460px;
 	}

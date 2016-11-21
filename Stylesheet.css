@@ -239,6 +239,7 @@ nav a:hover {
 		margin: 0;
 	}
 
+
 	#innerContainer {
 		width: 400px;
 		margin: auto;
@@ -259,7 +260,7 @@ nav a:hover {
 
 @media screen and (max-width: 650px), (max-height: 400px) {
 	nav {
-		position: absolute;
+		position: relative;
 	}
 
 	nav li, .flags {
@@ -278,10 +279,6 @@ nav a:hover {
 	.flags a {
 		padding: 9px;
 		padding-left: 10px;
-	}
-
-	.container-white:first-child {
-		margin-top: 200px;
 	}
 
 	#Background-picture #wrapper {

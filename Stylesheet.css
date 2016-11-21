@@ -283,6 +283,10 @@ nav a:hover {
 		padding-left: 10px;
 	}
 
+	.container-white:first-child {
+		margin-top: 200px;
+	}
+
 	#Background-picture #wrapper {
 		left: 0;
 		top: 0;

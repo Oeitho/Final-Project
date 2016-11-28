@@ -209,12 +209,14 @@ nav a.current {
 	float: right;
 	margin-left: 50px;
 }
+
 #ikon5 {
 	width: 50%;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
+
 #ikon1 {
 	height: 300px;
 	float: right;
@@ -222,6 +224,10 @@ nav a.current {
 	margin-bottom: 10px;
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+#sources h2 {
+	font-size: 1.6em;
 }
 
 @media screen and (max-width: 1100px) {

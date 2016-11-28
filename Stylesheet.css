@@ -22,6 +22,7 @@ body {
 	width: 400px;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 1px;
 }
 
 #Background-picture h1 {

@@ -70,11 +70,7 @@ nav a:hover {
 	background-color: #323334;
 }
 
-.current {
-	background-color: #222222;
-}
-
-.current:hover {
+nav a.current {
 	background-color: #222222;
 }
 

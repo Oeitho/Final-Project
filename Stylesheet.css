@@ -180,6 +180,7 @@ nav a.current {
 	padding-bottom: 20px;
 	padding-top: 20px
 }
+
 .container {
 	word-wrap: break-word;
 	width: 80%;
@@ -188,22 +189,27 @@ nav a.current {
 	padding-left: 40px;
 	padding-right: 40px;
 }
+
 .container h2 {
 	font-size: 40px;
 }
+
 .container p {
 	font-size: 20px;
 	padding-bottom: 20px;
 }
+
 .container-colored .container p {
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
+
 .container-colored .container h2 {
 	color: #E2E4E9;
 	font-size: 40px;
 }
+
 #ikon4 {
 	height: 350px;
 	float: right;

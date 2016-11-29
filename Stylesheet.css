@@ -4,18 +4,68 @@ body {
 	background-color: #E2E4E9;
 }
 
-#Background-picture {
+nav { /* Navigation bar container */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul { /* Navigation bar */
+	width: 100%;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #434445;
+}
+
+nav li { /* Individual links in the navigation bar */
+	float: left;
+}
+
+nav a { /* Links in the navigation bar */
+	color: white;
+	font-size: 1.3em;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav a:hover { /* Links in the navigation bar when hovered over */
+	background-color: #323334;
+}
+
+nav a.current { /* Link to page currently on */
+	background-color: #222222;
+}
+
+.flags { /* Link to site in different language */
+	float: right;
+}
+
+.flags a { /* Link to site in different language */
+	padding: 15px;
+	border-right: none;
+}
+
+.flags img { /* Images used for link to site in different language */
+	height: 29px;
+	width: 51px;
+}
+
+#frontpage-picture { /* Container for the frontpage picture and the elements within it */
 	overflow: hidden;
 	display: block;
 	width: 100%;
 }
 
-#Background-picture img {
+#frontpage-picture img { /* Frontpage picture */
 	display: block;
 	width: 100%;
 }
 
-#Background-picture #wrapper {
+#frontpage-picture #wrapper { /* Container for text within frontpage picture container */
 	position: absolute;
 	left: 50%;
 	top: 40%;
@@ -25,100 +75,35 @@ body {
 	border-radius: 1px;
 }
 
-#Background-picture h1 {
+#frontpage-picture h1 { /* Header within the frontpage picture container */
 	margin: 10px 0 0 0;
 	text-align: center;
 	font-size: 2.4em;
 	color: white;
 }
 
-#Background-picture p {
+#frontpage-picture p { /* Paragraphs within the frontpage picture container */
 	margin: 20px 0 10px 0;
 	text-align: center;
 	color: white;
 }
 
-nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
-nav ul {
-	width: 100%;
-	list-style-type: none;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	background-color: #434445;
-}
-
-nav li {
-	float: left;
-}
-
-nav a {
-	color: white;
-	font-size: 1.3em;
-	display: block;
-	text-decoration: none;
-	padding: 20px;
-}
-
-nav a:hover {
-	background-color: #323334;
-}
-
-nav a.current {
-	background-color: #222222;
-}
-
-.flags {
-	float: right;
-}
-
-.flags a {
-	padding: 15px;
-	border-right: none;
-}
-
-.flags img {
-	height: 29px;
-	width: 51px;
-}
-
-.text {
-	margin: 0;
-	padding: 20px 20% 0 20%;
-	overflow: hidden;
-	width: 60%;
-}
-
-.text h2 {
-	font-size: 2.4em;
-}
-
-.text p {
-	font-size: 1.9em;
-}
-
-#problem {
+#problem { /* Container for problem text on the front page */
 	text-align: center;
 	font-size: 1.6em;
 	padding: 1% 10% 1% 10%;
 }
 
-#problem > #link {
+#problem > #link { /* Link in the probem text on the front page */
 	font-size: 0.700em;
 }
 
-#problem a {
+#problem a { /* Link in the problem text on the front page */
 	color: black;
 	font-size: 1.4em;
 }
 
-.problems {
+.problems { /* Containers for the text on the bottom of the front page */
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -127,27 +112,27 @@ nav a.current {
 	width: 300px;
 }
 
-.problems:last-child {
+.problems:last-child { /* The last container for the text on the bottom of the front page */
 	margin-right: 0;
 }
 
-.problems h3 {
+.problems h3 { /* The headers within the containers for the text on the bottom of the front page */
 	text-align: center;
 }
 
-.problems p {
+.problems p { /* The paragraphs within the containers for the text on the bottom of the front page */
 	text-align: center;
 	line-height: 150%;
 }
 
-.problems img {
+.problems img { /* The images within the containers for the text on the bottom of the front page */
 	display: block;
 	height: 200px;
 	width: 200px;
 	margin: auto;
 }
 
-#innerContainer {
+#innerContainer { /* The container surrounding the containers for the text on the bottom of the front page */
 	color: white;
 	padding: 30px;
 	display: block;
@@ -156,17 +141,17 @@ nav a.current {
 	overflow: hidden;
 }
 
-#concept-link {
+#concept-link { /* Link at the bottom of the front page */
 	margin: 0;
 	text-align: center;
 	font-size: 1.4em;
 }
 
-#concept-link a {
+#concept-link a { /* Link at the bottom of the front page */
 	color: white;
 }
 
-.container-colored {
+.container-colored { /* Grey containers */
 	background-color: #434445;
 	width: 100%;
 	margin-top: 80px;
@@ -174,14 +159,14 @@ nav a.current {
 	padding-top: 20px;
 }
 
-.container-white {
+.container-white { /* White containers */
 	width: 100%;
 	margin-top: 80px;
 	padding-bottom: 20px;
 	padding-top: 20px
 }
 
-.container {
+.container { /* Inner containers */
 	word-wrap: break-word;
 	width: 80%;
 	margin-right: auto;
@@ -190,40 +175,27 @@ nav a.current {
 	padding-right: 40px;
 }
 
-.container h2 {
+.container h2 { /* Headers within containers */
 	font-size: 40px;
 }
 
-.container p {
+.container p { /* Paragraphs within containers */
 	font-size: 20px;
 	padding-bottom: 20px;
 }
 
-.container-colored .container p {
+.container-colored .container p { /* Pagagraphs within containers within colored containers */
 	color: #E2E4E9;
 	font-size: 20px;
 	padding-bottom: 20px;
 }
 
-.container-colored .container h2 {
+.container-colored .container h2 { /* Headers within containers within colored containers */
 	color: #E2E4E9;
 	font-size: 40px;
 }
 
-#ikon4 {
-	height: 350px;
-	float: right;
-	margin-left: 50px;
-}
-
-#ikon5 {
-	width: 50%;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#ikon1 {
+#ikon1 { /* First icon used */
 	height: 300px;
 	float: right;
 	margin-top: -50px;
@@ -232,16 +204,30 @@ nav a.current {
 	margin-right: 50px;
 }
 
-#sources h2 {
+#ikon4 { /* Fourt icon used */
+	height: 350px;
+	float: right;
+	margin-left: 50px;
+}
+
+#ikon5 { /* Fifth icon used */
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sources h2 { /* Headers files above sources on problem page */
 	font-size: 1.6em;
 }
-#sources p {
+
+#sources p { /* Sources on problem page */
 	font-size: 16px;
 }
 
 
-@media screen and (max-width: 1100px) {
-	#Background-picture #wrapper {
+@media screen and (max-width: 1100px) { /* Adjustment for browsers with width smaller than 1100 pixels */
+	#frontpage-picture #wrapper {
 		left: 0;
 		top: 0;
 		padding: 20px 0px 20px 0px;
@@ -249,16 +235,16 @@ nav a.current {
 		position: relative;
 	}
 
-	#Background-picture #wrapper p {
+	#frontpage-picture #wrapper p {
 		margin-right: 30px;
 		margin-left: 30px;
 	}
 
-	#Background-picture {
+	#frontpage-picture {
 		width: 100%;
 	}
 
-	#Background-picture img {
+	#frontpage-picture img {
 		width: 1100px;
 		margin: 0;
 	}
@@ -282,7 +268,7 @@ nav a.current {
 	}
 }
 
-@media screen and (max-width: 650px), (max-height: 400px) {
+@media screen and (max-width: 650px), (max-height: 400px) { /* Adjustment for browsers with width smaller than 650 pixels or height less than 400 px */
 	nav {
 		position: relative;
 	}
@@ -305,7 +291,7 @@ nav a.current {
 		padding-left: 10px;
 	}
 
-	#Background-picture #wrapper {
+	#frontpage-picture #wrapper {
 		left: 0;
 		top: 0;
 		width: 100vw;
@@ -315,20 +301,20 @@ nav a.current {
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 460px) { /* Adjustment for browsers with width smaller than 460 pixels */
 	nav {
 		width: 460px;
 	}
 
-	#Background-picture {
+	#frontpage-picture {
 		width: 460px;
 	}
 
-	#Background-picture #wrapper {
+	#frontpage-picture #wrapper {
 		width: 460px;
 	}
 
-	#Background-picture img {
+	#frontpage-picture img {
 		width: 460px;
 	}
 
